@@ -19,12 +19,12 @@ use gfx::traits::*;
 /// Flip settings.
 #[derive(Clone, Copy, PartialEq, Eq)]
 pub enum Flip {
-    /// Does not flip.
+    // Does not flip.
     None,
-    /// Flips image vertically.
+    // Flips image vertically.
     Vertical,
-    Horizontal
-    ///Flips imaga Horizontally
+    Horizontal,
+    //Flips image Horizontally
 }
 
 /// Represents a texture.
